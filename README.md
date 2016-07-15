@@ -4,6 +4,14 @@ Helpers for using [ramda](ramdajs.com) with [immutable.js](https://facebook.gith
 
 Currently only provides lenses using the `lens` function.
 
+## Installing
+
+```
+npm install --save ramda-immutable
+```
+
+Make sure you install `ramda` and `immutable` too cause they are peer dependencies.
+
 ## Helpers
 
 ### `lensProp` and `lensIndex`
