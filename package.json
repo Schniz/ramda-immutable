@@ -1,14 +1,14 @@
 {
   "name": "ramda-immutable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --require babel-register",
-		"build": "npm run build:babel && npm run build:flowcopy",
-		"build:babel": "babel --out-dir dist src",
-		"build:flowcopy": "flow-copy-source src/ dist/",
-		"prepublish": "npm run build"
+    "build": "npm run build:babel && npm run build:flowcopy",
+    "build:babel": "babel --out-dir dist src",
+    "build:flowcopy": "flow-copy-source src/ dist/",
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "",
